@@ -1,0 +1,274 @@
+body{
+	border: 0;
+	color: #666;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+}
+body,p,span,input,label{margin:0;padding: 0;}
+.login{
+	width: 100%;
+}
+
+.login_header{
+	width: 990px;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.login_content{
+	width: 100%;
+	background-color: #EEEEEE;
+}
+.login_content .con_In{
+	height: 570px;
+	background-color: #EEEEEE;
+	width: 990px;
+	margin: 0 auto;
+}
+.m_top p{
+	color: #666666;
+	font-size: 30px;
+}
+.con_In .con_L{
+	width: 500px;
+	float: left;
+	margin-top: 60px;
+	/*margin-top: 30px;*/
+}
+.con_In .con_R{
+	position: relative;
+	z-index: 5;
+	float: right;
+	margin-top: 150px;
+	/*margin-top: 50px;*/
+}
+
+.logo_form{
+
+}
+.logo_form .login_Message .m_enroll{
+	float: right;
+	font-size: 16px;
+	line-height: 50px;
+}
+.logo_form .login_Message .m_enroll a{
+	color: red;
+	text-decoration: none;
+}
+.msg-wrap {
+  min-height: 31px;
+  height: auto;
+  height: 31px;
+  margin: 2px 0 5px;
+}
+.msg-warn {
+	position: relative;
+	background: #fff6d2;
+	color: #666;
+	border: 1px solid #ffe57d;
+	/*padding: 0 auto 0 10px;*/
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+}
+
+.msg-warn p,.msg-error p{
+	margin: 0;
+	padding: 0;
+}
+.msg-error {
+  	position: relative;
+	background: #ffebeb;
+	color: #e4393c;
+	border: 1px solid #e4393c;
+	/*padding: 0 auto 0 10px;*/
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+}
+
+.login_ma .control-group .laber-form{
+	width: 60px;
+	float: left;
+	line-height: 35px;
+	color: #222;
+	font-size: 16px;
+	font-weight: normal;
+}
+.login_ma .controls input{
+	border: none;
+	outline: none;
+	padding-left: 10px;
+	height: 44px;
+	width: 350px;
+	font-size: 16px;
+}
+.safe{
+	margin: 16px 0 20px 0;
+	height: 20px;
+	font-size: 14px;
+}
+.safe_con input{
+	
+}
+.select{
+	float: left;
+	width: 35px;
+	margin-top: -3px;
+}
+.safeM{
+	float: left;
+	color: #999999;
+	margin-left: -15px;
+}
+.safeT{
+	float: right;
+	color: #C30D22;
+}
+.login_btn{
+	clear: left;
+	border: 1px solid #c30d22;
+	height: 44px;
+	width: 120px;
+	background: #c20d22;
+	text-align: center;
+	border-radius: 5px;
+}
+.login_btn a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 44px;
+}
+.login_btn:hover{
+	cursor: pointer;
+	
+}
+
+
+#wrapper{width: 100%;}
+#head,#nav,#content,#foot{ width: 980px;  margin-left: auto;  margin-right: auto;}
+#head .head-l{ float: left; }
+#head .head-r{ float: right; margin-top: 30px;}
+#head .head-r span{ font-size: 16px; margin-top: 30px;}
+#head .head-btn{ height: 30px; width: 50px; color: white; background: #c20d22; border: 0;  margin-top: 13px;}
+#head-btn:hover{margin-top: +1px;}
+#nav{clear: both; border-top: solid 2px #CCCCCC; margin-top: 20px; }
+
+#content { margin-top: 50px;}	
+#content .content-con{
+	float: left;
+}
+
+#content .control-group .laber-form{
+	width: 100px;
+	float: left;
+	line-height: 35px;
+	color: #222;
+	font-size: 16px;
+	font-weight: normal;
+}
+#content .controls input{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 10px;
+	height: 34px;
+	width: 200px;
+}
+.controls a{
+	text-decoration: none;
+}
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+  }
+
+.xiyi{
+	clear: both;
+	margin-top: 30px;
+}
+.xiyi a{
+	text-decoration: none;
+	margin-left: 20px;
+}
+.zc-btn{
+	margin-top: 30px;
+}
+.pass-btn{
+
+	background: #c20d22;
+	width: 350px;
+	display: block;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+}
+.reg-sms {
+  width: 258px;
+  height: 208px;
+  border: 1px solid #d1eeff;
+  background-color: #f5fbff;
+  margin-top: 40px;
+
+  float: right;
+  padding: 10px 0 0 10px;
+}
+.reg-sms .reg-sms-p-txt{
+  color: #666;
+  font-size: 12px;
+/*  margin-top: 20px;*/
+  margin-bottom: 5px;
+}	
+.reg-sms .reg-sms-p-warn {
+  font-size: 14px;
+  color: #f18300;
+  font-weight: bold;
+}
+.control-tip {
+	text-align: center;
+
+}
+.control-tip .help-block{
+	color: red;
+	font-size: 14px;
+}
+.copyright {
+  margin: 15px 0;
+}
+
+
+/*底部公司简介？*/
+.foot-intro{
+	background: #fff;
+	width: 100%;
+	height: 230px;
+}
+.intro-con{
+	width: 990px;
+	margin: 0 auto;
+	font-size: 12px;
+	background: #fff;
+	height: 210px;
+	padding-top: 20px;
+	color: #999;
+	position: relative;
+	line-height: 22px;
+}
+.foot-intro .iphone,.foot-intro .name,.foot-intro .dress,.icp{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/*  login  底部 back*/
+.loginBack{width: 100%;height: 36px;background: #000}
+.intro-con1Span{font-size: 14px;line-height: 40px;}
+.intro-con1,.intro-con2,.intro-con3,.intro-con4{display: inline-block}
+.intro-con2,.intro-con3{margin-left: 120px;}
+.intro-con1,.intro-con4{margin-left: 60px}
+.intro-con3 dd,.intro-con4 dd{text-align: center;margin: 0}
